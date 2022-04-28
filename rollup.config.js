@@ -2,11 +2,12 @@ import styles from "rollup-plugin-styles";
 import babel from '@rollup/plugin-babel';
 import sourcemaps from 'rollup-plugin-sourcemaps';
 import del from 'rollup-plugin-delete';
+import typescript from '@rollup/plugin-typescript';
 
 const autoprefixer = require('autoprefixer');
 
 const conf = {
-    input: 'src/index.js',
+    input: 'src/index.tsx',
     output: {
         file: `dist/index.cjs.js`,
         format: "cjs",
@@ -15,6 +16,7 @@ const conf = {
     // this externelizes react to prevent rollup from compiling it
     external: ["react", /@babel\/runtime/],
     plugins: [
+        typescript(),
         // these are babel comfigurations
         babel({
             exclude: 'node_modules/**',
