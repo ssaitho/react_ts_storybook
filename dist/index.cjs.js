@@ -64,7 +64,8 @@ var Header = function (_a) {
 
 var returnLibrary = function () {
     return {
-        Header: Header
+        Header: Header,
+        Button: Button
         // you can add here other components that you want to export
     };
 };

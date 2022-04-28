@@ -1,8 +1,10 @@
 import { Header } from './stories/Header'
+import { Button } from './stories/Button'
 
 const returnLibrary = () => {
     return {
-        Header: Header
+        Header: Header,
+        Button: Button
         // you can add here other components that you want to export
     }
 }
