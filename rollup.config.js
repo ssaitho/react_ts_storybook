@@ -19,6 +19,16 @@ const conf = {
     plugins: [
         typescript(),
         // these are babel comfigurations
+        postcss({
+            config: {
+                path: "./postcss.config.js",
+            },
+            extensions: [".css"],
+            minimize: true,
+            inject: {
+                insertAt: "top",
+            },
+        }),
         babel({
             exclude: 'node_modules/**',
             plugins: ['@babel/transform-runtime'],
