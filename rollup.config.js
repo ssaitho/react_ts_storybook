@@ -3,6 +3,7 @@ import babel from '@rollup/plugin-babel';
 import sourcemaps from 'rollup-plugin-sourcemaps';
 import del from 'rollup-plugin-delete';
 import typescript from '@rollup/plugin-typescript';
+import postcss from "rollup-plugin-postcss";
 
 const autoprefixer = require('autoprefixer');
 
