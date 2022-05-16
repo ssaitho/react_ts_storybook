@@ -19,16 +19,16 @@ const conf = {
     plugins: [
         typescript(),
         // these are babel comfigurations
-        // postcss({
-        //     config: {
-        //         path: "./postcss.config.js",
-        //     },
-        //     extensions: [".css"],
-        //     minimize: true,
-        //     inject: {
-        //         insertAt: "top",
-        //     },
-        // }),
+        postcss({
+            config: {
+                path: "./postcss.config.js",
+            },
+            extensions: [".css"],
+            minimize: true,
+            inject: {
+                insertAt: "top",
+            },
+        }),
         babel({
             exclude: 'node_modules/**',
             plugins: ['@babel/transform-runtime'],
@@ -42,18 +42,11 @@ const conf = {
             postcss: {
                 plugins: [
                     autoprefixer()
-                ],
-                config: {
-                    path: "./postcss.config.js",
-                },
-                extensions: [".css"],
-                minimize: true,
-                inject: {
-                    insertAt: "top",
-                },
-            },
+                ]
+            }
         })
-    ]
+    ],
+    external: ["react", "react-dom"],
 }
 
 export default conf;
