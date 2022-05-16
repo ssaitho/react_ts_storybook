@@ -25,7 +25,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "build:tailwind": "postcss src/lib/styles/tailwind.css -o src/lib/styles/main.css",
+    "build:tailwind-prod": "cross-env NODE_ENV=production postcss src/lib/styles/tailwind.css -o src/lib/styles/main.css"
   },
   "eslintConfig": {
     "extends": [
