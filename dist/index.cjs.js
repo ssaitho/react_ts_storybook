@@ -79,7 +79,7 @@ var Button = function (_a) {
     return (jsxRuntime.jsx("button", __assign({ type: "button", className: ['storybook-button', "storybook-button--".concat(size), mode].join(' '), style: { backgroundColor: backgroundColor } }, props, { children: label })));
 };
 
-var css_248z = ".wrapper{align-items:center;border-bottom:1px solid #0000001a;display:flex;font-family:Nunito Sans,Helvetica Neue,Helvetica,Arial,sans-serif;justify-content:space-between;padding:15px 20px}h1,svg{display:inline-block;vertical-align:top}h1{font-size:20px;font-weight:900;line-height:1;margin:6px 0 6px 10px}button+button{margin-left:10px}.welcome{color:#333;font-size:14px;margin-right:10px}";
+var css_248z = ".wrapper{align-items:center;background-color:red;border-bottom:1px solid #0000001a;display:flex;font-family:Nunito Sans,Helvetica Neue,Helvetica,Arial,sans-serif;justify-content:space-between;padding:15px 20px}h1,svg{display:inline-block;vertical-align:top}h1{font-size:20px;font-weight:900;line-height:1;margin:6px 0 6px 10px}button+button{margin-left:10px}.welcome{color:#333;font-size:14px;margin-right:10px}";
 styleInject(css_248z,{"insertAt":"top"});
 
 var Header = function (_a) {
