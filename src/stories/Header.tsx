@@ -40,6 +40,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
         <h2 className='font-black bg-white rounded-lg shadow-lg'>
           tailwind cssテスト
         </h2>
+        <h3 className='text-9xl'>text-9xl</h3>
       </div>
       <div>
         {user ? (
