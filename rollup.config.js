@@ -3,7 +3,7 @@ import babel from '@rollup/plugin-babel';
 import sourcemaps from 'rollup-plugin-sourcemaps';
 import del from 'rollup-plugin-delete';
 import typescript from '@rollup/plugin-typescript';
-import postcss from "rollup-plugin-postcss";
+// import postcss from "rollup-plugin-postcss";
 
 const autoprefixer = require('autoprefixer');
 
@@ -19,16 +19,16 @@ const conf = {
     plugins: [
         typescript(),
         // these are babel comfigurations
-        postcss({
-            config: {
-                path: "./postcss.config.js",
-            },
-            extensions: [".css"],
-            minimize: true,
-            inject: {
-                insertAt: "top",
-            },
-        }),
+        // postcss({
+        //     config: {
+        //         path: "./postcss.config.js",
+        //     },
+        //     extensions: [".css"],
+        //     minimize: true,
+        //     inject: {
+        //         insertAt: "top",
+        //     },
+        // }),
         babel({
             exclude: 'node_modules/**',
             plugins: ['@babel/transform-runtime'],
@@ -46,7 +46,7 @@ const conf = {
             }
         })
     ],
-    external: ["react", "react-dom"],
+    // external: ["react", "react-dom"],
 }
 
 export default conf;
