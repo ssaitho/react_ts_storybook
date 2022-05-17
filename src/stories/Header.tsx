@@ -37,7 +37,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
         <h1 className="text-3xl font-bold underline bg-red-600 text-yellow-300">
           Hello world!
         </h1>
-        <h2 className='font-black'>
+        <h2 className='font-black bg-primary'>
           tailwind cssテスト
         </h2>
       </div>
