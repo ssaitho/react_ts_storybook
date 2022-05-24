@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import 'tw-elements';
+
 
 
 type User = {
