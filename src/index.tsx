@@ -1,4 +1,3 @@
-import '../index.css';
 import { Header } from './stories/Header'
 import { Button } from './stories/Button'
 import { Card } from './stories/Card'
