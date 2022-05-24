@@ -37,7 +37,7 @@ export const Modal = ({ user }: ModalProps) => (
       duration-150
       ease-in-out' data-bs-toggle="modal" data-bs-target="#exampleModal"
     >
-      button
+      ボタン
     </button>
 
     {/* Modal */}
