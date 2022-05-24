@@ -1,5 +1,4 @@
 import '../src/index.css';
-// import 'tw-elements';
 
 export const parameters = {
   actions: {

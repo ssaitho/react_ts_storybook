@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Button } from './Button';
 import './header.css';
-import '../index.css';
 
 type User = {
   name: string;
@@ -35,13 +34,9 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
             />
           </g>
         </svg>
-        <h1 className="text-3xl font-bold underline bg-red-600 text-yellow-300">
+        <h1>
           Hello world!
         </h1>
-        <h2 className='font-black bg-white rounded-lg shadow-lg'>
-          tailwind cssテスト
-        </h2>
-        <h3 className='text-9xl'>text-9xl</h3>
       </div>
       <div>
         {user ? (

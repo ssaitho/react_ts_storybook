@@ -1,7 +1,4 @@
 import React from 'react';
-import '../index.css';
-// import 'tw-elements';
-// import 'flowbite';
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationIcon } from '@heroicons/react/outline'
