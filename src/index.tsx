@@ -2,13 +2,15 @@ import { Header } from './stories/Header'
 import { Button } from './stories/Button'
 import { Card } from './stories/Card'
 import { Modal } from './stories/Modal'
+import { Test } from './stories/Test'
 
 const returnLibrary = () => {
     return {
         Header: Header,
         Button: Button,
         Card: Card,
-        Modal: Modal
+        Modal: Modal,
+        Test: Test
         // you can add here other components that you want to export
     }
 }
