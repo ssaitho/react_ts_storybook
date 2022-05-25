@@ -1,6 +1,6 @@
 {
   "name": "@ssaitho/react_ts_storybook",
-  "version": "0.1.35",
+  "version": "0.1.36",
   "private": false,
   "dependencies": {
     "@babel/runtime": "^7.17.9",
