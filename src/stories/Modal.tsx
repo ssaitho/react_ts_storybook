@@ -4,19 +4,14 @@ import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationIcon } from '@heroicons/react/outline'
 
-
-type User = {
-  name: string;
-};
-
 interface ModalProps {
-  user?: User;
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
+  label: string;
 }
 
-export const Modal = ({ user }: ModalProps) => {
+export const Modal = ({
+  label,
+  ...props
+}: ModalProps) => {
   const [open, setOpen] = useState(true)
   const cancelButtonRef = useRef(null)
 
@@ -58,8 +53,7 @@ export const Modal = ({ user }: ModalProps) => {
                       </Dialog.Title>
                       <div className="mt-2">
                         <p className="text-sm text-gray-500">
-                          Are you sure you want to deactivate your account? All of your data will be permanently
-                          removed. This action cannot be undone.
+                          {label}
                         </p>
                       </div>
                     </div>
