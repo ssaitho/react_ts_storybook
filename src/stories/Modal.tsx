@@ -6,10 +6,12 @@ import { ExclamationIcon } from '@heroicons/react/outline'
 
 interface ModalProps {
   label: string;
+  lalabel: string;
 }
 
 export const Modal = ({
   label,
+  lalabel,
   ...props
 }: ModalProps) => {
   const [open, setOpen] = useState(true)
@@ -54,6 +56,9 @@ export const Modal = ({
                       <div className="mt-2">
                         <p className="text-sm text-gray-500">
                           {label}
+                        </p>
+                        <p className="text-sm text-gray-500">
+                          {lalabel}
                         </p>
                       </div>
                     </div>

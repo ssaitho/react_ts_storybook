@@ -19,3 +19,7 @@ export default {
 const Template: ComponentStory<typeof Modal> = (args) => <Modal {...args} />;
 
 export const Modal01 = Template.bind({});
+Modal01.args = {
+    label: 'labelダミーテキスト',
+    lalabel: 'lalabelダミーテキスト',
+};
