@@ -1,0 +1,12 @@
+{
+  "color": {
+    "primary": {
+      "value": "#0061FF",
+      "type": "color"
+    },
+    "danger": {
+      "value": "#FF564E",
+      "type": "color"
+    }
+  }
+}
