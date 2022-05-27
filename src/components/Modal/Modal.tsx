@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../../../assets/stylesheets/index.css';
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationIcon } from '@heroicons/react/outline'

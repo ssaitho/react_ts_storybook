@@ -1,8 +1,8 @@
-import { Header } from './stories/Header'
-import { Button } from './stories/Button'
-import { Card } from './stories/Card'
-import { Modal } from './stories/Modal'
-import { Test } from './stories/Test'
+import { Header } from './components/Header/Header'
+import { Button } from './components/Button/Button'
+import { Card } from './components/Card/Card'
+import { Modal } from './components/Modal/Modal'
+import { Test } from './components/Test/Test'
 
 const returnLibrary = () => {
     return {

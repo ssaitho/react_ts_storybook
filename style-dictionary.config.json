@@ -1,0 +1,15 @@
+{
+  "source": ["assets/tokens/output.json"],
+  "platforms": {
+    "js": {
+      "buildPath": "assets/javascripts/",
+      "transformGroup": "js",
+      "files": [
+        {
+          "format": "javascript/module",
+          "destination": "tokens.js"
+        }
+      ]
+    }
+  }
+}

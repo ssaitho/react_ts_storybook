@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../../../assets/stylesheets/index.css';
 // import 'flowbite';
 // import 'tw-elements';
 
