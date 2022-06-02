@@ -5,14 +5,14 @@ import { Modal } from './components/Modal/Modal'
 import { Test } from './components/Test/Test'
 
 const returnLibrary = () => {
-    return {
-        Header: Header,
-        Button: Button,
-        Card: Card,
-        Modal: Modal,
-        Test: Test
-        // you can add here other components that you want to export
-    }
+  return {
+    Header: Header,
+    Button: Button,
+    Card: Card,
+    Modal: Modal,
+    Test: Test,
+    // you can add here other components that you want to export
+  }
 }
 export default returnLibrary()
 

@@ -1,19 +1,15 @@
-import React from 'react';
-import '../../../assets/stylesheets/index.css';
+import React from 'react'
+import '../../../assets/stylesheets/index.css'
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationIcon } from '@heroicons/react/outline'
 
 interface ModalProps {
-  label: string;
-  lalabel: string;
+  label: string
+  lalabel: string
 }
 
-export const Modal = ({
-  label,
-  lalabel,
-  ...props
-}: ModalProps) => {
+export const Modal = ({ label, lalabel, ...props }: ModalProps) => {
   const [open, setOpen] = useState(true)
   const cancelButtonRef = useRef(null)
 
@@ -54,12 +50,8 @@ export const Modal = ({
                         Deactivate account
                       </Dialog.Title>
                       <div className="mt-2">
-                        <p className="text-sm text-gray-500">
-                          {label}
-                        </p>
-                        <p className="text-sm text-gray-500">
-                          {lalabel}
-                        </p>
+                        <p className="text-sm text-gray-500">{label}</p>
+                        <p className="text-sm text-gray-500">{lalabel}</p>
                       </div>
                     </div>
                   </div>
@@ -88,4 +80,4 @@ export const Modal = ({
       </Dialog>
     </Transition.Root>
   )
-};
+}

@@ -1,21 +1,20 @@
-import React from 'react';
-import '../../../assets/stylesheets/index.css';
+import React from 'react'
+import '../../../assets/stylesheets/index.css'
 // import 'flowbite';
 // import 'tw-elements';
 
 type User = {
-  name: string;
-};
+  name: string
+}
 
 interface TestProps {
-  user?: User;
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
+  user?: User
+  onLogin: () => void
+  onLogout: () => void
+  onCreateAccount: () => void
 }
 
 export const Test = ({ user }: TestProps) => {
-
   return (
     <>
       <p>コメントアウトしてます</p>
@@ -55,4 +54,4 @@ export const Test = ({ user }: TestProps) => {
 </div> */}
     </>
   )
-};
+}

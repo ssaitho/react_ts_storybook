@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-import { Header } from '../Header/Header';
-import './page.css';
+import { Header } from '../Header/Header'
+import './page.css'
 
 type User = {
-  name: string;
-};
+  name: string
+}
 
 export const Page: React.VFC = () => {
-  const [user, setUser] = React.useState<User>();
+  const [user, setUser] = React.useState<User>()
 
   return (
     <article>
@@ -19,7 +19,7 @@ export const Page: React.VFC = () => {
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
 
-      <section className='bg-ecforce-blue shadow-lg shadow-cyan-500/50 rounded-lg'>
+      <section className="bg-ecforce-blue shadow-lg shadow-cyan-500/50 rounded-lg">
         <h2>Pages in Storybook</h2>
         <p>
           We recommend building UIs with a{' '}
@@ -69,5 +69,5 @@ export const Page: React.VFC = () => {
         </div>
       </section>
     </article>
-  );
-};
+  )
+}
