@@ -32,7 +32,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "lint": "eslint . --ext .ts,.js,.tsx,.jsx",
-    "lint:fix": "eslint --fix . --ext .ts,.js,.tsx,.jsx"
+    "lint:fix": "eslint --fix . --ext .ts,.js,.tsx,.jsx",
+    "icons": "npx @svgr/cli -d src/components/Icon src/components/Icon/svg --typescript --replace-attr-values 'none=currentColor' --ext 'tsx'"
   },
   "eslintConfig": {
     "extends": [
@@ -82,6 +83,7 @@
     "@storybook/preset-create-react-app": "^4.1.0",
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.9",
+    "@svgr/cli": "^6.2.1",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "autoprefixer": "^10.4.5",

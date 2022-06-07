@@ -1,6 +1,7 @@
 **/node_modules/*
 **/out/*
 **/.next/*
+**/dist/*
 rollup.config.js
 tailwind.config.js
 storybook-static

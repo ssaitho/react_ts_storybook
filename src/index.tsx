@@ -1,16 +1,16 @@
-import { Header } from './components/Header/Header'
+// import { Header } from './components/Header/Header'
 import { Button } from './components/Button/Button'
-import { Card } from './components/Card/Card'
-import { Modal } from './components/Modal/Modal'
-import { Test } from './components/Test/Test'
+// import { Card } from './components/Card/Card'
+// import { Modal } from './components/Modal/Modal'
+// import { Test } from './components/Test/Test'
 
 const returnLibrary = () => {
   return {
-    Header: Header,
+    // Header: Header,
     Button: Button,
-    Card: Card,
-    Modal: Modal,
-    Test: Test,
+    // Card: Card,
+    // Modal: Modal,
+    // Test: Test,
     // you can add here other components that you want to export
   }
 }
