@@ -1,19 +1,5 @@
 {
-  "theme": {
-    "bg": {
-      "value": "#ffefec",
-      "type": "color"
-    },
-    "fg": {
-      "value": "#1934d1",
-      "type": "color"
-    }
-  },
   "color": {
-    "ecforce-blue": {
-      "value": "#1934d1",
-      "type": "color"
-    },
     "red-900": {
       "value": "#b23c37",
       "type": "color"
@@ -26,28 +12,12 @@
       "value": "#ffafa2",
       "type": "color"
     },
-    "red-300": {
-      "value": "#ffefec",
-      "type": "color"
-    },
     "blue-900": {
       "value": "#0044b2",
       "type": "color"
     },
     "blue-700": {
       "value": "#0062ff",
-      "type": "color"
-    },
-    "blue-500": {
-      "value": "#b4d0e7",
-      "type": "color"
-    },
-    "blue-300": {
-      "value": "#e4ecf3",
-      "type": "color"
-    },
-    "blue-300-copy": {
-      "value": "#e4ecf3",
       "type": "color"
     }
   }
