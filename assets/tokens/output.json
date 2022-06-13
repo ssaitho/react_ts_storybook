@@ -39,11 +39,11 @@
       "type": "fontSizes"
     },
     "mm": {
-      "value": 67,
+      "value": "67px",
       "type": "fontSizes"
     },
     "text-mm": {
-      "value": 66,
+      "value": "66px",
       "type": "fontSizes"
     }
   }
