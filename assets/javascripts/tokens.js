@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Jun 2022 12:26:17 GMT
+ * Generated on Mon, 13 Jun 2022 12:29:39 GMT
  */
 
 module.exports = {
@@ -135,12 +135,12 @@ module.exports = {
   },
   "text": {
     "text-sm": {
-      "value": "14px",
+      "value": "74px",
       "type": "fontSizes",
       "filePath": "assets/tokens/output.json",
       "isSource": true,
       "original": {
-        "value": "14px",
+        "value": "74px",
         "type": "fontSizes"
       },
       "name": "TextTextSm",
