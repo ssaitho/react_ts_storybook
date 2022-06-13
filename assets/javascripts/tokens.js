@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Jun 2022 12:19:57 GMT
+ * Generated on Mon, 13 Jun 2022 12:22:58 GMT
  */
 
 module.exports = {
@@ -171,40 +171,44 @@ module.exports = {
         "text",
         "sm"
       ]
-    }
-  },
-  "mm": {
-    "value": 67,
-    "type": "fontSizes",
-    "filePath": "assets/tokens/output.json",
-    "isSource": true,
-    "original": {
+    },
+    "mm": {
       "value": 67,
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "filePath": "assets/tokens/output.json",
+      "isSource": true,
+      "original": {
+        "value": 67,
+        "type": "fontSizes"
+      },
+      "name": "TextMm",
+      "attributes": {
+        "category": "text",
+        "type": "mm"
+      },
+      "path": [
+        "text",
+        "mm"
+      ]
     },
-    "name": "Mm",
-    "attributes": {
-      "category": "mm"
-    },
-    "path": [
-      "mm"
-    ]
-  },
-  "text-mm": {
-    "value": 66,
-    "type": "fontSizes",
-    "filePath": "assets/tokens/output.json",
-    "isSource": true,
-    "original": {
+    "text-mm": {
       "value": 66,
-      "type": "fontSizes"
-    },
-    "name": "TextMm",
-    "attributes": {
-      "category": "text-mm"
-    },
-    "path": [
-      "text-mm"
-    ]
+      "type": "fontSizes",
+      "filePath": "assets/tokens/output.json",
+      "isSource": true,
+      "original": {
+        "value": 66,
+        "type": "fontSizes"
+      },
+      "name": "TextTextMm",
+      "attributes": {
+        "category": "text",
+        "type": "text-mm"
+      },
+      "path": [
+        "text",
+        "text-mm"
+      ]
+    }
   }
 };
