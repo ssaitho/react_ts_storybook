@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Jun 2022 12:13:54 GMT
+ * Generated on Mon, 13 Jun 2022 12:19:57 GMT
  */
 
 module.exports = {
@@ -172,5 +172,39 @@ module.exports = {
         "sm"
       ]
     }
+  },
+  "mm": {
+    "value": 67,
+    "type": "fontSizes",
+    "filePath": "assets/tokens/output.json",
+    "isSource": true,
+    "original": {
+      "value": 67,
+      "type": "fontSizes"
+    },
+    "name": "Mm",
+    "attributes": {
+      "category": "mm"
+    },
+    "path": [
+      "mm"
+    ]
+  },
+  "text-mm": {
+    "value": 66,
+    "type": "fontSizes",
+    "filePath": "assets/tokens/output.json",
+    "isSource": true,
+    "original": {
+      "value": 66,
+      "type": "fontSizes"
+    },
+    "name": "TextMm",
+    "attributes": {
+      "category": "text-mm"
+    },
+    "path": [
+      "text-mm"
+    ]
   }
 };

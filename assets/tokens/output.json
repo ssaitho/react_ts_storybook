@@ -38,5 +38,13 @@
       "value": "14px",
       "type": "fontSizes"
     }
+  },
+  "mm": {
+    "value": 67,
+    "type": "fontSizes"
+  },
+  "text-mm": {
+    "value": 66,
+    "type": "fontSizes"
   }
 }
