@@ -45,6 +45,10 @@
     "text-mm": {
       "value": "66px",
       "type": "fontSizes"
+    },
+    "aa": {
+      "value": "10px",
+      "type": "fontSizes"
     }
   }
 }

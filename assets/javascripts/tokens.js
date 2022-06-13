@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Jun 2022 12:24:28 GMT
+ * Generated on Mon, 13 Jun 2022 12:26:17 GMT
  */
 
 module.exports = {
@@ -208,6 +208,25 @@ module.exports = {
       "path": [
         "text",
         "text-mm"
+      ]
+    },
+    "aa": {
+      "value": "10px",
+      "type": "fontSizes",
+      "filePath": "assets/tokens/output.json",
+      "isSource": true,
+      "original": {
+        "value": "10px",
+        "type": "fontSizes"
+      },
+      "name": "TextAa",
+      "attributes": {
+        "category": "text",
+        "type": "aa"
+      },
+      "path": [
+        "text",
+        "aa"
       ]
     }
   }
