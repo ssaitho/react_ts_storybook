@@ -1,9 +1,26 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Jun 2022 03:25:37 GMT
+ * Generated on Mon, 13 Jun 2022 12:13:54 GMT
  */
 
 module.exports = {
+  "8": {
+    "value": 8,
+    "type": "spacing",
+    "filePath": "assets/tokens/output.json",
+    "isSource": true,
+    "original": {
+      "value": 8,
+      "type": "spacing"
+    },
+    "name": "8",
+    "attributes": {
+      "category": "8"
+    },
+    "path": [
+      "8"
+    ]
+  },
   "color": {
     "red-900": {
       "value": "#b23c37",
@@ -80,24 +97,79 @@ module.exports = {
         "color",
         "blue-900"
       ]
+    }
+  },
+  "8px": {
+    "value": "8px",
+    "type": "spacing",
+    "filePath": "assets/tokens/output.json",
+    "isSource": true,
+    "original": {
+      "value": "8px",
+      "type": "spacing"
     },
-    "blue-700": {
-      "value": "#0062ff",
-      "type": "color",
+    "name": "8px",
+    "attributes": {
+      "category": "8px"
+    },
+    "path": [
+      "8px"
+    ]
+  },
+  "8px_rem": {
+    "value": "0.5rem",
+    "type": "spacing",
+    "filePath": "assets/tokens/output.json",
+    "isSource": true,
+    "original": {
+      "value": "0.5rem",
+      "type": "spacing"
+    },
+    "name": "8pxRem",
+    "attributes": {
+      "category": "8px_rem"
+    },
+    "path": [
+      "8px_rem"
+    ]
+  },
+  "text": {
+    "text-sm": {
+      "value": "14px",
+      "type": "fontSizes",
       "filePath": "assets/tokens/output.json",
       "isSource": true,
       "original": {
-        "value": "#0062ff",
-        "type": "color"
+        "value": "14px",
+        "type": "fontSizes"
       },
-      "name": "ColorBlue700",
+      "name": "TextTextSm",
       "attributes": {
-        "category": "color",
-        "type": "blue-700"
+        "category": "text",
+        "type": "text-sm"
       },
       "path": [
-        "color",
-        "blue-700"
+        "text",
+        "text-sm"
+      ]
+    },
+    "sm": {
+      "value": "14px",
+      "type": "fontSizes",
+      "filePath": "assets/tokens/output.json",
+      "isSource": true,
+      "original": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "name": "TextSm",
+      "attributes": {
+        "category": "text",
+        "type": "sm"
+      },
+      "path": [
+        "text",
+        "sm"
       ]
     }
   }

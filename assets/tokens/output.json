@@ -3,10 +3,6 @@
     "value": 8,
     "type": "spacing"
   },
-  "14": {
-    "value": 14,
-    "type": "fontSizes"
-  },
   "color": {
     "red-900": {
       "value": "#b23c37",
@@ -29,16 +25,18 @@
     "value": "8px",
     "type": "spacing"
   },
-  "14px": {
-    "value": "14px",
-    "type": "fontSizes"
-  },
-  "14px_rem": {
-    "value": "0.875rem",
-    "type": "fontSizes"
-  },
   "8px_rem": {
     "value": "0.5rem",
     "type": "spacing"
+  },
+  "text": {
+    "text-sm": {
+      "value": "14px",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "14px",
+      "type": "fontSizes"
+    }
   }
 }
