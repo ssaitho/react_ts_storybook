@@ -11,6 +11,18 @@ const colors = Object.fromEntries(Object
   ])
 );
 
+const text = Object.fromEntries(Object
+  .values(tokens.text)
+  .map(({
+    attributes,
+    value
+  }) => [
+    kebabcase(attributes.type), value
+  ])
+);
+console.log(colors);
+console.log(text);
+
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
@@ -20,6 +32,7 @@ module.exports = {
   theme: {
     extend: {
       colors,
+      text,
     },
   },
   plugins: [

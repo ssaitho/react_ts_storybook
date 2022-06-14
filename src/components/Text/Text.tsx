@@ -11,9 +11,9 @@ export const Text = ({
 }: TextProps) => {
   return (
     <p
-      className='text-test'
+      className='text-sm'
     >
-      ボタンテスト
+      ボタンテス
     </p>
   )
 }
