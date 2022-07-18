@@ -17,4 +17,3 @@ export default {
 const Template: ComponentStory<typeof Text> = (args) => <Text {...args} />
 
 export const Text01 = Template.bind({})
-
