@@ -2,14 +2,14 @@ import React from 'react'
 import '../../../assets/stylesheets/index.css'
 
 interface ButtonProps {
-  variant?: 'bg-ecforce-blue' | 'bg-red-900'
+  variant?: 'bg-red-700' | 'bg-red-900'
   size?: 'small' | 'medium' | 'large'
   label: string
   onClick?: () => void
 }
 
 export const Button = ({
-  variant = 'bg-ecforce-blue',
+  variant = 'bg-red-700',
   size = 'large',
   label,
   ...props

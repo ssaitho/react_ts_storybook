@@ -1,5 +1,0 @@
-@import url("../../../assets/stylesheets/tokens.scss");
-
-.text-test {
-  font-size: var(--14px-rem);
-}

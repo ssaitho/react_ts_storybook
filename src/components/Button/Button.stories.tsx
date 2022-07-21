@@ -19,7 +19,7 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
 export const Primary = Template.bind({})
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
-  variant: 'bg-ecforce-blue',
+  variant: 'bg-red-700',
   size: 'medium',
   label: 'Button',
 }
@@ -33,14 +33,14 @@ Secondary.args = {
 
 export const Large = Template.bind({})
 Large.args = {
-  variant: 'bg-ecforce-blue',
+  variant: 'bg-red-900',
   size: 'large',
   label: 'Button',
 }
 
 export const Small = Template.bind({})
 Small.args = {
-  variant: 'bg-ecforce-blue',
+  variant: 'bg-red-900',
   size: 'small',
   label: 'Button',
 }
